@@ -32,7 +32,7 @@ router.get('/:id', (req, res) => {
     .then(dbReqData => {
       if (!dbReqData) {
         res.status(404).json({ message: 'No post found with that id' });
-        return
+        return;
       }
       res.json(dbReqData);
     })
