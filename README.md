@@ -1,4 +1,4 @@
-# E-Commerce Back End
+# E-commerce Back End
 
 ## Description
 This project involves creating the back end for an e-commerce website. Just like e-commerce websites this project involves a user requesting for a specific item and returning the appropriate response. A response could be the requested information in JSON format or an error message. The database for this project was created using MySQL where models were given associations. Using Insomnia Core the API routes were tested and performed RESTful CRUD operations. The reason for creating this is to create a minimal viable product that online retailers can use for their business.
